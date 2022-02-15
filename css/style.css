@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  width: 80%;
+  height: 15%;
+  color: #fff;
+  margin: 0 auto;
+  border-bottom: 3px #fff solid;
+  font-family: gill-sans-nova, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+nav .logo {
+  border: 2px solid #fff;
+  padding: 5px;
+}
+nav .links {
+  position: absolute;
+  right: 0;
+}
+nav .links a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 15px;
+  border-right: 1px solid #79addc;
+}
+nav .links #lastLink {
+  border: none;
+  padding-right: 0;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/hero-plane-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-plane-image.png");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 200;
+}
+
+.heroText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: gill-sans-nova, sans-serif;
+}
+.heroText button {
+  background-color: #79addc;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+
+.destinationContainer {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: -2vw;
+}
+.destinationContainer .destination {
+  text-align: center;
+  color: #fff;
+  width: 30%;
+  min-height: 30%;
+  max-height: 35%;
+  font-family: proxima-nova, sans-serif;
+}
+.destinationContainer .destination h1 {
+  margin-top: 20%;
+  font-size: 2vw;
+}
+.destinationContainer .destination p {
+  font-size: 1.2vw;
+}
+.destinationContainer .destination button {
+  width: 70%;
+  background-color: #79addc;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  border-style: none;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.destinationContainer #israel {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/israel.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/israel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.destinationContainer #america {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/america.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/america.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.destinationContainer #austrailia {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/austrailia.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/austrailia.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bookingForm {
+  width: 60%;
+  margin: 0 auto;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 200;
+}
+.bookingForm h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+}
+.bookingForm input,
+.bookingForm option,
+.bookingForm select,
+.bookingForm textarea {
+  border: solid 1px #79addc;
+  height: 50px;
+  padding-left: 10px;
+}
+.bookingForm .twoSplit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2%;
+}
+.bookingForm .twoSplit .short {
+  width: 37%;
+  margin-right: 3%;
+}
+.bookingForm .twoSplit .long {
+  width: 60%;
+}
+.bookingForm .singleSplit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2%;
+}
+.bookingForm .singleSplit label {
+  width: 15%;
+}
+.bookingForm .singleSplit .extraLong {
+  width: 85%;
+}
+.bookingForm .threeSplit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.bookingForm .threeSplit .split .num {
+  width: 10vw;
+  margin-left: 20px;
+}
+.bookingForm .largeBox {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 5%;
+  padding-top: 10px;
+  resize: none;
+}
+.bookingForm .button {
+  width: 100%;
+  background-color: #79addc;
+  color: #fff;
+  border-radius: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  background-color: #79addc;
+  color: #fff;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: gill-sans-nova, sans-serif;
+  position: relative;
+}
+footer .logo {
+  border: 2px solid #fff;
+  padding: 5px;
+  position: absolute;
+  left: 5%;
+}
+footer .social {
+  position: absolute;
+  right: 5%;
+  font-size: 25px;
+}
+footer .social span {
+  margin-left: 15px;
+}
+
+/*Gill Sans Nova Bold
+
+font-family: gill-sans-nova, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Gill Sans Nova Bold Italic
+
+font-family: gill-sans-nova, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Gill Sans Nova Book
+
+font-family: gill-sans-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Gill Sans Nova Book Italic
+
+font-family: gill-sans-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Gill Sans Nova Deco Regular
+
+font-family: gill-sans-nova-deco, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Gill Sans Nova Inline Bold
+
+font-family: gill-sans-nova-inline, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Gill Sans Nova Inline Regular
+
+font-family: gill-sans-nova-inline, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Gill Sans Nova Shadowed Light
+
+font-family: gill-sans-nova-shadowed, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Gill Sans Nova Shadowed Medium
+
+font-family: gill-sans-nova-shadowed, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Gill Sans Nova Shadowed Outline
+
+font-family: gill-sans-nova-shadowed-outl, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Gill Sans Nova ExtraCondensed Bold
+
+font-family: gill-sans-nova-extra-condens, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Gill Sans Nova Condensed Bold
+
+font-family: gill-sans-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Gill Sans Nova Condensed Bold Italic
+
+font-family: gill-sans-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Gill Sans Nova Condensed Book
+
+font-family: gill-sans-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Gill Sans Nova Condensed Book Italic
+
+font-family: gill-sans-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Gill Sans Nova Inline Condensed
+
+font-family: gill-sans-nova-inline-conden, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;*/

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/bia5ttc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Homework Three</title>
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <div class="logo">travel-fly</div>
+        <div class="links">
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">tours</a>
+          <a href="#">special offers</a>
+          <a href="#">blog</a>
+          <a id="lastLink" href="#">contact</a>
+        </div>
+      </nav>
+      <div class="heroText">
+        <h1>travel-fly</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vitae
+          laborum harum officia quidem eius hic.
+        </p>
+        <button>READ MORE</button>
+      </div>
+    </div>
+    <section class="destinationContainer">
+      <div class="destination" id="israel">
+        <h1>ISRAEL</h1>
+        <p>from $1000</p>
+        <button>LEARN MORE</button>
+      </div>
+      <div class="destination" id="america">
+        <h1>U.S.A</h1>
+        <p>from $1500</p>
+        <button>LEARN MORE</button>
+      </div>
+      <div class="destination" id="austrailia">
+        <h1>AUSTRAILIA</h1>
+        <p>from $1800</p>
+        <button>LEARN MORE</button>
+      </div>
+    </section>
+    <section class="bookingForm">
+      <h1>Booking form</h1>
+      <form>
+        <div class="twoSplit">
+          <input type="text" class="short" name="name" placeholder="name.." />
+          <input type="text" class="long" name="email" placeholder="email..." />
+        </div>
+        <div class="twoSplit">
+          <input
+            type="text"
+            class="short"
+            name="country"
+            placeholder="country..."
+          />
+          <input type="text" class="long" name="hotel" placeholder="hotel..." />
+        </div>
+        <div class="singleSplit">
+          <label for="checkin">Check-in</label>
+          <input
+            type="date"
+            class="extraLong"
+            name="checkin"
+            placeholder="05/10/2020"
+          />
+        </div>
+        <div class="singleSplit">
+          <label for="checkout">Check-out</label>
+          <input
+            type="date"
+            class="extraLong"
+            name="checkout"
+            placeholder="05/10/2020"
+          />
+        </div>
+        <div class="threeSplit">
+          <div class="split">
+            <label for="adult">Adult</label>
+            <select class="num" name="adult">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+          </div>
+          <div class="split">
+            <label for="child">Children</label>
+            <select class="num" name="child">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+          </div>
+          <div class="split">
+            <label for="room">Rooms</label>
+            <select class="num" name="room">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+          </div>
+        </div>
+        <textarea class="largeBox">message...</textarea>
+        <input class="button" type="submit" value="SUBMIT" />
+      </form>
+    </section>
+    <footer>
+      <div class="logo">travel-fly</div>
+      Copyright 2019 travel-fly. All rights reserved
+      <div class="social">
+        <span><i class="fab fa-facebook-square"></i></span>
+        <span><i class="fab fa-instagram-square"></i></span>
+        <span><i class="fab fa-twitter-square"></i></span>
+        <span></span>
+      </div>
+    </footer>
+  </body>
+</html>
