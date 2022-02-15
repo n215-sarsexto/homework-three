@@ -1,0 +1,61 @@
+.destinationContainer {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: -2vw;
+
+  .destination {
+    text-align: center;
+    color: #fff;
+    width: 30%;
+    min-height: 30%;
+    max-height: 35%;
+    font-family: proxima-nova, sans-serif;
+
+    h1 {
+      margin-top: 20%;
+      font-size: 2vw;
+    }
+    p {
+      font-size: 1.2vw;
+    }
+
+    button {
+      width: 70%;
+      background-color: $blue-accent;
+      color: #fff;
+      border-radius: 20px;
+      padding: 10px;
+      border-style: none;
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
+  }
+  #israel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/israel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #america {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/america.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #austrailia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/austrailia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
