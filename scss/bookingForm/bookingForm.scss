@@ -1,0 +1,68 @@
+.bookingForm {
+  width: 60%;
+  margin: 0 auto;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 200;
+
+  h1 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+  }
+  input,
+  option,
+  select,
+  textarea {
+    border: solid 1px $blue-accent;
+    height: 50px;
+    padding-left: 10px;
+  }
+  .twoSplit {
+    display: flex;
+    margin-bottom: 2%;
+    .short {
+      width: 37%;
+      margin-right: 3%;
+    }
+    .long {
+      width: 60%;
+    }
+  }
+  .singleSplit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    label {
+      width: 15%;
+    }
+    .extraLong {
+      width: 85%;
+    }
+  }
+  .threeSplit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    width: 100%;
+    .split {
+      .num {
+        width: 10vw;
+        margin-left: 20px;
+      }
+    }
+  }
+  .largeBox {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    resize: none;
+  }
+
+  .button {
+    width: 100%;
+    background-color: $blue-accent;
+    color: #fff;
+    border-radius: 20px;
+  }
+}
